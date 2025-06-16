@@ -142,7 +142,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Email settings field
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-DEFAULT_FROM_EMAIL = 'CertChain NG <nduokoronkwochinememark@gmail.com>'
+DEFAULT_FROM_EMAIL = 'ORU-UBI <nduokoronkwochinememark@gmail.com>'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'nduokoronkwochinememark@gmail.com'
