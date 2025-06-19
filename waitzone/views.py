@@ -16,9 +16,6 @@ class HealthCheckAPIView(APIView):
         )
 
 class JoinWaitlistAPIView(APIView):
-    authentication_classes = [TokenAuthentication]
-    permission_classes = [IsAuthenticated]
-
     def post(self, request):
         serializer = WaitListSubscriptionSerializer(data=request.data)
         if serializer.is_valid():
