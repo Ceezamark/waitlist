@@ -1,6 +1,12 @@
+# Ignore IDE/editor configs
+.vscode/
+
 # Ignore Python cache & artifacts
 __pycache__/
 *.pyc
 
 # Ignore DB
 db.sqlite3
+
+# Ignore virtual environment if present inside
+venv/
